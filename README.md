@@ -27,3 +27,12 @@ https://gist.github.com/projectboot/a0308688abcb1f318a0b00b33698e782
 		}
 		return TRUE;
 	}
+
+
+
+
+# Создание URL ярлыка
+	--->`n - новая строка
+
+	$shortcut = "[InternetShortcut]`nURL=c:\programdata\shell.exe"
+	Set-Content -Path "c:\inetpub\testing\test.url" -value $shortcut
