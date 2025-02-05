@@ -2,7 +2,7 @@
 
 https://gist.github.com/projectboot/a0308688abcb1f318a0b00b33698e782
 
-	// Compile with: cl.exe notepadXLL.c /LD /o notepad.xll
+	// Compile with: cl.exe notepadXLL.c /LD /o notepad.xll or x86_64-w64-mingw32-gcc xll.c -shared -o test.xll
 	#include <Windows.h>
 
 	__declspec(dllexport) void __cdecl xlAutoOpen(void); 
